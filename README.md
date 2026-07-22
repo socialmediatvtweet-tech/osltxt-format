@@ -16,9 +16,7 @@ Features
 File Structure Example
 ----------------------
 
-Plaintext
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`# OSLTXT v1.0  # License: MIT  # Author: Jakub Fríbl  ----------------------------------------  This is the genesis file of the OSLTXT format.  A minimalist plain-text standard designed for open sharing,  transparency, and cryptographic integrity.  Let the history of open-source text begin here.  ----------------------------------------  # HASH:` 
+`# OSLTXT v1.0 # License: MIT  # Author: Jakub Fríbl  ----------------------------------------  This is the genesis file of the OSLTXT format.  A minimalist plain-text standard designed for open sharing,  transparency, and cryptographic integrity.  Let the history of open-source text begin here.  ----------------------------------------  # HASH:` 
 
 How to Use & Requirements
 -------------------------
