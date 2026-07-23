@@ -41,6 +41,8 @@ Open your terminal or command prompt (cmd) in that folder and use the following 
 *   Bashpython osltxt.py new_(Follow the prompts, write your text, and type end on a new line when you are finished)._
     
 *   Bashpython osltxt.py verify genesis.osltxt_(The script will check if the text has been modified or if it matches the original cryptographic hash)._
+
+Or You can just install Python and our .exe file.
     
 
 License
