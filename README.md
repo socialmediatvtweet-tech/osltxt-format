@@ -61,7 +61,7 @@ Installation via Bash Script
 
 If you prefer using a terminal installation script on Linux, macOS, or WSL, you can install osltxt directly with this command:
 
-curl -sSL https://raw.githubusercontent.com/socialmediatvtweet-tech/osltxt-format/main/install.sh | bash   `
+curl -sSL https://raw.githubusercontent.com/socialmediatvtweet-tech/osltxt-format/main/install.sh | bash
 
 This script will automatically download the latest version from GitHub and install it into your system.
 
