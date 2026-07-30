@@ -3,31 +3,21 @@
     "description": "A minimalist plain-text file format with open-source licensing and cryptographic integrity protection (SHA-256).",
     "homepage": "https://github.com/socialmediatvtweet-tech/osltxt-format",
     "license": "MIT",
-    "depends": "python",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/socialmediatvtweet-tech/osltxt-format/archive/refs/tags/v1.0.0.zip",
-            "hash": "B156AFD16FA0AA941F2A4643E849085F98B8E7046F11413685B4CB8B191B32DB"
+            "url": "https://github.com/socialmediatvtweet-tech/osltxt-format/releases/download/v1.0.0/osltxt.exe",
+            "hash": "A98CEDA6C73C2E1D38A4D4B53FA8902B42D2285D9AEE48F66495AFE6C559BABB"
         }
     },
-    "extract_dir": "osltxt-format-1.0.0",
     "bin": [
-        [
-            "osltxt.py",
-            "osltxt",
-            "python"
-        ]
+        "osltxt.exe"
     ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/socialmediatvtweet-tech/osltxt-format/archive/refs/tags/v$version.zip"
+                "url": "https://github.com/socialmediatvtweet-tech/osltxt-format/releases/download/v$version/osltxt.exe"
             }
-        },
-        "extract_dir": "osltxt-format-$version",
-        "hash": {
-            "url": "https://github.com/socialmediatvtweet-tech/osltxt-format/archive/refs/tags/v$version.zip"
         }
     }
 }
