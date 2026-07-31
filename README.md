@@ -38,9 +38,9 @@ Download both the osltxt.py script and your .osltxt files (like genesis.osltxt) 
 
 Open your terminal or command prompt (cmd) in that folder and use the following commands:
 
-*   python osltxt.py new_(Follow the prompts, write your text, and type end on a new line when you are finished)._
+*   ```bash python osltxt.py new``` _(Follow the prompts, write your text, and type end on a new line when you are finished)._ 
     
-*   python osltxt.py verify genesis.osltxt_(The script will check if the text has been modified or if it matches the original cryptographic hash)._
+*   ```bash python osltxt.py verify genesis.osltxt``` _(The script will check if the text has been modified or if it matches the original cryptographic hash)._
 
 Or You can just install Python and our .exe file.
 
@@ -48,11 +48,13 @@ Installation via Scoop
 ----------------------
 
 If you use the [Scoop](https://scoop.sh/) package manager, you can install osltxt using my custom bucket:
-
+```bash
 1.  scoop bucket add scoop-osltxt https://github.com/socialmediatvtweet-tech/scoop-osltxt
-    
+```
+
+```bash
 2.  scoop install osltxt
-    
+ ```   
 
 _Find more information about the package and manifests in the_ [_scoop-osltxt repository_](https://github.com/socialmediatvtweet-tech/scoop-osltxt/tree/main)_._
 
@@ -60,10 +62,18 @@ Installation via Bash Script
 ----------------------------
 
 If you prefer using a terminal installation script on Linux, macOS, or WSL, you can install osltxt directly with this command:
-
+```bash
 curl -sSL https://raw.githubusercontent.com/socialmediatvtweet-tech/osltxt-format/main/install.sh | bash
-
+```
 This script will automatically download the latest version from GitHub and install it into your system.
+
+## Installation with Winget
+
+You can install this app directly from the Windows Package Manager by running the following command in your terminal:
+
+```bash
+winget install JakubFribl.osltxt
+```
 
 License
 -------
